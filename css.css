@@ -1,21 +1,28 @@
-body
-{
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+head + p {
+    text-align: center;
+    color: brown;
+}
+body {
     background: local;
     background-color: blanchedalmond;
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    list-style: center;
+    margin-left: 5%;
+    list-style: none;
 }
-ul,
-ol,
-p{
-    list-style-position: inside;
-    font-size: 1.5rem;
+form {
+    text-align: right;
+    margin-right: 5%;
+    font-size: 40px;
 }
-li,
-p{
-    line-height: 1.5;
+form + select {
+    size: 40px;
 }
